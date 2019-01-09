@@ -1,0 +1,48 @@
+{
+  "name": "@req-json/serialize-request",
+  "version": "0.0.1",
+  "description": "Serialize request for req-json.",
+  "keywords": [
+    "req-json",
+    "request"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/req-json/req-json-serialize-request.git"
+  },
+  "author": "Cweili",
+  "license": "MIT",
+  "homepage": "https://github.com/Cweili/req-json",
+  "bugs": {
+    "url": "https://github.com/Cweili/req-json/issues"
+  },
+  "main": "dist/serialize-request.cjs.js",
+  "module": "dist/serialize-request.esm.js",
+  "unpkg": "dist/serialize-request.js",
+  "jsdelivr": "dist/serialize-request.js",
+  "sideEffects": false,
+  "scripts": {
+    "prebuild": "eslint --fix *.js",
+    "build": "rollup -c",
+    "test": "jest test --collectCoverage --coverageDirectory ./coverage/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "jest": "^23.6.0",
+    "rollup": "^0.68.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "xhr-mock": "^2.3.1"
+  },
+  "peerDependencies": {
+    "req-json": ">=2.0.0"
+  }
+}
