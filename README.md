@@ -40,8 +40,8 @@ Direct `<script>` include
 [github]: https://github.com/Cweili/req-json
 [github-issues]: https://img.shields.io/github/issues/Cweili/req-json.svg
 
-[travis]: https://travis-ci.org/req-json/serialize-request
-[travis-build]: https://img.shields.io/travis/req-json/serialize-request.svg
+[travis]: https://travis-ci.org/req-json/req-json-serialize-request
+[travis-build]: https://travis-ci.org/req-json/req-json-serialize-request.svg?branch=master
 
-[codecov]: https://codecov.io/gh/req-json/serialize-request
-[codecov-svg]: https://img.shields.io/codecov/c/github/req-json/serialize-request.svg
+[codecov]: https://codecov.io/gh/req-json/req-json-serialize-request
+[codecov-svg]: https://img.shields.io/codecov/c/github/req-json/req-json-serialize-request.svg
