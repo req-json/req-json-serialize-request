@@ -8,7 +8,7 @@
 
 [![github][github-issues]][github]
 [![travis][travis-build]][travis]
-[![codecov][codecov-svg]][codecov]
+[![coverage][coveralls-svg]][coveralls-svg]
 
 
 Serialize request for [req-json][req-json].
@@ -43,5 +43,5 @@ Direct `<script>` include
 [travis]: https://travis-ci.org/req-json/req-json-serialize-request
 [travis-build]: https://travis-ci.org/req-json/req-json-serialize-request.svg?branch=master
 
-[codecov]: https://codecov.io/gh/req-json/req-json-serialize-request
-[codecov-svg]: https://img.shields.io/codecov/c/github/req-json/req-json-serialize-request.svg
+[coveralls]: https://coveralls.io/github/req-json/req-json-serialize-request?branch=master
+[coveralls-svg]: https://coveralls.io/repos/github/req-json/req-json-serialize-request/badge.svg?branch=master
