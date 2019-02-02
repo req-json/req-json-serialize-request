@@ -8,7 +8,7 @@
 
 [![github][github-issues]][github]
 [![travis][travis-build]][travis]
-[![coverage][coveralls-svg]][coveralls-svg]
+[![coverage][coveralls-svg]][coveralls]
 
 
 Serialize request for [req-json][req-json].
