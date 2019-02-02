@@ -20,7 +20,7 @@ export default [
         format: 'es',
       },
       {
-        name: 'ReqJSONSerializeRequest',
+        name: 'reqJSONSerializeRequest',
         file: pkg.unpkg,
         format: 'umd',
       },

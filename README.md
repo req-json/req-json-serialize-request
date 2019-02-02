@@ -23,10 +23,10 @@ npm install @req-json/serialize-request --save
 
 ### Browser
 
-Direct `<script>` include
+Direct `<script>` include `window.reqJSONSerializeRequest`
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@req-json/serialize-request"></script>
+<script src="https://cdn.jsdelivr.net/npm/@req-json/serialize-request@1"></script>
 ```
 
 [req-json]: https://github.com/Cweili/req-json
