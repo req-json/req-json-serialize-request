@@ -1,6 +1,6 @@
 {
   "name": "@req-json/serialize-request",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Serialize request for req-json.",
   "keywords": [
     "req-json",
