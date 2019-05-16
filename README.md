@@ -1,7 +1,5 @@
 # @req-json/serialize-request
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/req-json/req-json-serialize-request.svg)](https://greenkeeper.io/)
-
 [![npm][badge-version]][npm]
 [![bundle size][badge-size]][bundlephobia]
 [![npm downloads][badge-downloads]][npm]
