@@ -1,5 +1,5 @@
 import ReqJSON from 'req-json';
-import serializeRequest from '..';
+import serializeRequest from '../index';
 
 it('serialize request', async () => {
   const reqJSON = new ReqJSON();
