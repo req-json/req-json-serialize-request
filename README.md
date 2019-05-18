@@ -44,8 +44,8 @@ Direct `<script>` include `window.reqJSONSerializeRequest`
 [badge-issues]: https://img.shields.io/github/issues/req-json/req-json-serialize-request.svg
 [github]: https://github.com/req-json/req-json-serialize-request
 
-[badge-build]: https://travis-ci.org/req-json/req-json-serialize-request.svg?branch=master
+[badge-build]: https://img.shields.io/travis/req-json/req-json-serialize-request/master.svg
 [travis]: https://travis-ci.org/req-json/req-json-serialize-request
 
-[badge-coverage]: https://coveralls.io/repos/github/req-json/req-json-serialize-request/badge.svg?branch=master
+[badge-coverage]: https://img.shields.io/coveralls/github/req-json/req-json-serialize-request/master.svg
 [coveralls]: https://coveralls.io/github/req-json/req-json-serialize-request?branch=master
