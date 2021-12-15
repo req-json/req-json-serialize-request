@@ -7,7 +7,7 @@
 
 
 [![github][badge-issues]][github]
-[![travis][badge-build]][travis]
+[![workflows][badge-build]][workflows]
 [![coverage][badge-coverage]][coveralls]
 
 
@@ -44,8 +44,8 @@ Direct `<script>` include `window.reqJSONSerializeRequest`
 [badge-issues]: https://img.shields.io/github/issues/req-json/req-json-serialize-request.svg
 [github]: https://github.com/req-json/req-json-serialize-request
 
-[badge-build]: https://img.shields.io/travis/req-json/req-json-serialize-request/master.svg
-[travis]: https://travis-ci.org/req-json/req-json-serialize-request
+[badge-build]: https://img.shields.io/github/workflow/status/req-json/req-json-serialize-request/ci/master
+[workflows]: https://github.com/req-json/req-json-serialize-request/actions/workflows/ci.yml?query=branch%3Amaster
 
 [badge-coverage]: https://img.shields.io/coveralls/github/req-json/req-json-serialize-request/master.svg
 [coveralls]: https://coveralls.io/github/req-json/req-json-serialize-request?branch=master
