@@ -19,4 +19,9 @@ jobs:
 
       - run: npm install
       - run: npm run build
-      - run: npm test -- --coverageReporters=text-lcov | npx coveralls
+      - run: npm test -- --coverageReporters=text-lcov
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
