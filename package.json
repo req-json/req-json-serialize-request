@@ -27,12 +27,12 @@
     "test": "jest test --coverage"
   },
   "dependencies": {
+    "@babel/eslint-parser": "^7.16.3",
     "req-json": ">=2.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
-    "babel-eslint": "^10.0.1",
     "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-node": "^0.3.2",
