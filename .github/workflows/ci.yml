@@ -12,8 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set node version to 16
-        uses: actions/setup-node@v2
+      - uses: actions/setup-node@v2
         with:
           node-version: 16
 
@@ -21,7 +20,6 @@ jobs:
       - run: npm run build
       - run: npm test -- --coverageReporters=lcov
 
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
+      - uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
